@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-maior {
+  background-color: black;
+  opacity: 0.8;
+  width: 95%;
+  max-width: 450px;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.lupa {
+  height: 20px;
+  width: 25px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+}
+
+button :hover {
+  background-color: #7c7c7c;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #7c7c7c2b;
+  color: #ffff;
+  width: calc(100% - 100px);
+  font-size: 25px;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.cidade {
+  color: #ffff;
+  font-size: 28px;
+}
+
+.temperatura {
+  color: #ffff;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.icon-tempo {
+  height: 40px;
+  margin-top: 5px;
+}
+
+.descricao {
+  color: #ffff;
+  margin-top: 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: #ffff;
+  margin-top: 30px;
+  font-size: 25px;
+}
