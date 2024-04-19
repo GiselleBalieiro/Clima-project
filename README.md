@@ -1,8 +1,8 @@
-# MeuProjetoWebJS
+# Clima
 
 ## Descrição
 
-"MeuProjetoWebJS" é um site interativo que usa HTML, CSS e JavaScript. Este projeto serve como uma introdução ao desenvolvimento web.
+"Clima" é um site interativo que usa HTML, CSS e JavaScript. Este projeto serve como uma introdução ao desenvolvimento web.
 
 ## Estrutura do Projeto
 
